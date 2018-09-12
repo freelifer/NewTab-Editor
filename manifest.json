@@ -1,0 +1,17 @@
+{  
+  "name": "NewTab Editor",  
+  "manifest_version":2,
+  "version": "1.0.0",  
+  "description": "Open a new tab and editor",
+  "icons": {
+	"16": "ic_launcher.png"
+  },
+  "browser_action": {  
+    "default_icon": "ic_launcher.png" ,
+    "default_title": "NewTab Editor"
+  },
+  "chrome_url_overrides":
+{
+    "newtab": "popup.html"
+}
+} 
